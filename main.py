@@ -55,9 +55,9 @@ while True:
   else:
     ble.send_value('S', 0)
   if gamepad.read_buttons()[1]:
-    ble.send_value('S1', 70)
+    ble.send_value('S1',80)
   elif gamepad.read_buttons()[3]:
-    ble.send_value('S1', 40)
+    ble.send_value('S1', 130)
   elif gamepad.read_buttons()[4]:
     ble.send_value('S2', 0)
   elif gamepad.read_buttons()[2]:
